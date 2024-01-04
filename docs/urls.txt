@@ -1,0 +1,6 @@
+https://amplify-junkyard.s3.eu-west-1.amazonaws.com/junk/junk-01.jpg
+https://amplify-junkyard.s3.eu-west-1.amazonaws.com/junk/junk-02.jpg
+https://amplify-junkyard.s3.eu-west-1.amazonaws.com/junk/junk-03.jpg
+https://amplify-junkyard.s3.eu-west-1.amazonaws.com/junk/junk-04.jpg
+https://amplify-junkyard.s3.eu-west-1.amazonaws.com/junk/junk-05.jpg
+

@@ -1,0 +1,9 @@
+type Junk @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  header: String
+  body: String
+  image: AWSURL
+  price: String
+  date: AWSDate
+}
+ 

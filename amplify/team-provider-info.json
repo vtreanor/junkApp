@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-junkapp-staging-131318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::331265975585:role/amplify-junkapp-staging-131318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::331265975585:role/amplify-junkapp-staging-131318-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-junkapp-staging-131318-deployment",
+      "UnauthRoleName": "amplify-junkapp-staging-131318-unauthRole",
+      "StackName": "amplify-junkapp-staging-131318",
+      "StackId": "arn:aws:cloudformation:eu-west-1:331265975585:stack/amplify-junkapp-staging-131318/b3e8fd80-a4b9-11ee-811c-0a51c5df7f29",
+      "AmplifyAppId": "d2sca81853e0x4"
+    },
+    "categories": {
+      "auth": {
+        "junkApp": {}
+      }
+    }
+  }
+}

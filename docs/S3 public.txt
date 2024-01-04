@@ -1,0 +1,26 @@
+The next step is to modify the bucket policy to allow public access. You can do this by adding a new 
+statement to the policy that grants the “s3:GetObject” permission to everyone.
+
+    Navigate to the Permissions tab in your bucket
+    Go to Bucket Policy and click Edit
+    Add the following statement to the Policy and make sure to change the bucket-name with the name of the bukcet you are working with:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::amplify-junkyard/*"
+            ]
+        }
+    ]
+}
+
+In the above example, we’re granting the “s3:GetObject” permission to everyone by setting the “Principal” field to “*”. 
+We’re also specifying that this policy applies to all objects within the bucket by using the wildcard character (*) in the “Resource” field
